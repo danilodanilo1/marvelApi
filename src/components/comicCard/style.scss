@@ -1,0 +1,89 @@
+.comic-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/Spider-Man\ Full\ HD\ Wallpaper\ and\ Background\ Image\ _\ 1920x1080\ _\ ID_913245.jpeg");
+  height: 80%;
+  overflow-y: scroll;
+  .card-container {
+    color: black;
+    position: relative;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 260px;
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    height: 290px;
+    &:hover {
+      border: solid 3px red;
+    }
+
+    .header-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .comic-img {
+        width: 260px;
+        height: 220px;
+        border-radius: 5px;
+      }
+    }
+    .title {
+      p {
+        font-size: 10px;
+        font-weight: bold;
+        height: 10px;
+      }
+    }
+    .footer-card {
+      display: flex;
+      justify-content: space-between;
+      button {
+        width: 100px;
+        border-radius: 5px;
+        background-color: red;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .modal-content {
+    .modal-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      flex-direction: column;
+      text-align: center;
+      border-bottom: none;
+      p {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .hero-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+      }
+    }
+    .modal-body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+    }
+    .modal-footer {
+      button {
+        width: 100px;
+        border-radius: 5px;
+        background-color: red;
+      }
+    }
+  }
+}
