@@ -50,8 +50,7 @@ export default class HeroCard extends Component {
       return item.name
     })
 
-    console.log(nome);
-    // console.log(this.props);
+
     return (
 
       < div className="hero-card-container" >

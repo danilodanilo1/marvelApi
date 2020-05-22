@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 
-import Main from '../pages/main'
+import Main from '../pages/heroes'
 import Comics from '../pages/comics'
 import Events from '../pages/events'
 

@@ -32,7 +32,7 @@ export default class HeroCard extends Component {
     } = this.props.comic;
     const { path, extension } = thumbnail;
 
-    console.log(this.props);
+
 
     return (
 

@@ -3,11 +3,13 @@ import React from 'react'
 import './style.scss'
 
 
-export default function BodyEvents() {
+export default function BodyEvents(props) {
+
+
   return (
     <div className="body-container">
-      Events
 
+      {props.qtd}
     </div>
   )
 }
